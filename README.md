@@ -5,7 +5,9 @@ To train and use model prepare dataset like one attached in data.json file.
 You can use https://github.com/doccano/doccano browser tool for this purpose. 
 
 ### Part I: Label data
+Dataset was prepared based on https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets
 To prepare tagged dataset run steps below:
+
 #### 1. Download and install browser program for labeling data "doccano":
 go to link below and run described steps:
 https://github.com/doccano/doccano
