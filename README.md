@@ -73,10 +73,10 @@ conda activate ner_model_training_spacy
 pip install -r requirements.txt
 ```
 
-Start jupyter notebook:
+Start jupyter notebook:\
 `jupyter notebook`
 
-Now you can code with traing NER model in [doccano-spacy.ipynb](doccano-spacy.ipynb)
+Now you can code with traing NER model in notebook [doccano-spacy.ipynb](doccano-spacy.ipynb)
 
 To deactivate conda environment run:  
 `conda deactivate`
