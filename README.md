@@ -47,7 +47,7 @@ Add labels as below, by clicking Actions/Create Label:
 - Date
 
 #### 5. Annotate data:
-On left sidebar click "Start Annotation" and tag all texts by marking each meaningfull phrase that belongs to one of created categories.
+On left sidebar click "Start Annotation" and tag all texts by marking each meaningful phrase that belongs to one of created categories.
 
 #### 6. Export training set:
 From left menu choose option "Dataset" Actions/Export Dataset.
@@ -57,8 +57,26 @@ Unzip created file and copy .jsonl file into project dir.
 
 ### Part II: Train model
 To use training set from previous part (Label data) you need to change jsonl file into json.
-You can achive it by adding comma in all lines except last one and wrap everything in square braces, see samples.json as example.
+You can achieve it by adding comma in all lines except last one and wrap everything in square braces, see samples.json as example.
 
 To train model open doccano-spacy.ipynb in jupyter lab  and run all cells.
 Replace samples.json with bitcoin_tweets_text_lines.json to train model on prepared dataset.
 Replace also labels with ones used for annotation.
+
+To run isolated environment with packages install conda:  
+`https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html`
+
+To setup environment run commands:
+```
+conda create -n ner_model_training_spacy python=3.10
+conda activate ner_model_training_spacy
+pip install -r requirements.txt
+```
+
+Start jupyter notebook:
+`jupyter notebook`
+
+Now you can code with traing NER model in [doccano-spacy.ipynb](doccano-spacy.ipynb)
+
+To deactivate conda environment run:  
+`conda deactivate`

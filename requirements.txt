@@ -1,0 +1,4 @@
+numpy==1.26.3
+spacy==3.8.4
+spacy[transformers]
+jupyter==1.1.1
