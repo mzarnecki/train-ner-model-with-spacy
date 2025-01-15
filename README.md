@@ -57,7 +57,8 @@ Unzip created file and copy .jsonl file into project dir.
 
 ### Part II: Train model
 To use training set from previous part (Label data) you need to change jsonl file into json.
-You can achieve it by adding comma in all lines except last one and wrap everything in square braces, see samples.json as example.
+You can achieve it by adding comma in all lines except last one and wrap everything in square braces, see samples.json as example. \
+See [bitcoin_tweets_annotated.jsonl](data/bitcoin_tweets_annotated.json) 
 
 To train model open doccano-spacy.ipynb in jupyter lab  and run all cells.
 Replace samples.json with bitcoin_tweets_text_lines.json to train model on prepared dataset.
