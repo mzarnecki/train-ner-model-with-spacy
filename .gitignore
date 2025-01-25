@@ -2,3 +2,6 @@ model-best
 model-last
 .idea
 .ipynb_checkpoints
+test_data.spacy
+train_data.spacy
+mlartifacts

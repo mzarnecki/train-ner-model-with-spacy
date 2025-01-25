@@ -1,6 +1,10 @@
 # train-ner-model-with-spacy
 Custom training NER model with spacy library and annotaded dataset in JSON 
 
+The goal of this project is to create model that can annotate custom entities in text like various cryptocurrency names and prices.
+It can be trained to recognize also other abstractions like people names, organizations and many others.
+<img src="img/spacy_NER_bitcoin.png">
+
 To train and use model prepare dataset like one attached in data.json file. 
 You can use https://github.com/doccano/doccano browser tool for this purpose. 
 
@@ -81,3 +85,7 @@ Now you can code with traing NER model in notebook [doccano-spacy.ipynb](doccano
 
 To deactivate conda environment run:  
 `conda deactivate`
+
+## Evaluation
+During training evaluation metrics like loss and F1 score are captured to mlflow 
+<img src="img/evaluation_mlflow.png">

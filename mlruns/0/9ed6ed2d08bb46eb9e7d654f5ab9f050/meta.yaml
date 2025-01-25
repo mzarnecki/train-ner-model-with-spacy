@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9ed6ed2d08bb46eb9e7d654f5ab9f050/artifacts
+end_time: 1737835065394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ed6ed2d08bb46eb9e7d654f5ab9f050
+run_name: overjoyed-owl-585
+run_uuid: 9ed6ed2d08bb46eb9e7d654f5ab9f050
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737835043433
+status: 3
+tags: []
+user_id: michal

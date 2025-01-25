@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cfe61a14c46d4196a5f08918304104ed/artifacts
+end_time: 1737835387270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfe61a14c46d4196a5f08918304104ed
+run_name: likeable-finch-997
+run_uuid: cfe61a14c46d4196a5f08918304104ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737835234660
+status: 3
+tags: []
+user_id: michal
